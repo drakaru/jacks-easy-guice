@@ -16,9 +16,6 @@ public class PropertiesProvider implements Provider<Properties> {
     static {
         try {
             properties.load(getResource("${artifactId}.properties"));
-            System.out.println("get()");
-            System.out.println("properties = " + properties);
-
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
@@ -30,8 +27,6 @@ public class PropertiesProvider implements Provider<Properties> {
     }
 
     public static Properties getProperties() {
-        System.out.println("getProperties()");
-        System.out.println("properties = " + properties);
         return properties;
     }
  }
