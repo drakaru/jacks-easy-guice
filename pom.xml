@@ -5,7 +5,7 @@
 
     <groupId>uk.co.desecrated.archetype</groupId>
     <artifactId>jacks-easy-guice</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <!-- note this is not a default maven packaging type -->
     <packaging>maven-archetype</packaging>
 

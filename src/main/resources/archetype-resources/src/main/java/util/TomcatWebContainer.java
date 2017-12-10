@@ -33,6 +33,10 @@ public class TomcatWebContainer {
 
     public void start() throws LifecycleException {
         this.tomcat.start();
+
+        // for some reason connector initialisation was removed from tomcat.start() in 9.0?
+        // maybe this can be removed in the future
+        tomcat.getConnector();
     }
 
     public void stop() throws LifecycleException {
