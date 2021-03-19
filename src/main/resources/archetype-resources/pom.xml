@@ -11,7 +11,7 @@
         <jackson.version>2.9.9</jackson.version>
         <!-- slightly higher than others for vuln fix -->
         <jackson-databind.version>2.9.10.5</jackson-databind.version>
-        <tomcat.version>9.0.35</tomcat.version>
+        <tomcat.version>10.0.4</tomcat.version>
         <tomcat-embed-logging-juli.version>9.0.0.M6</tomcat-embed-logging-juli.version>
 
         <!-- test -->
