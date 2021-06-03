@@ -7,7 +7,7 @@
     <version>${version}</version>
 
     <properties>
-        <resteasy.version>3.1.4.Final</resteasy.version>
+        <resteasy.version>4.5.7.Final</resteasy.version>
         <jackson.version>2.9.9</jackson.version>
         <!-- slightly higher than others for vuln fix -->
         <jackson-databind.version>2.9.10.5</jackson-databind.version>
