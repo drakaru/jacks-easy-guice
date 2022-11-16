@@ -10,7 +10,7 @@
         <resteasy.version>3.1.4.Final</resteasy.version>
         <jackson.version>2.9.9</jackson.version>
         <!-- slightly higher than others for vuln fix -->
-        <jackson-databind.version>2.9.10.5</jackson-databind.version>
+        <jackson-databind.version>2.12.7.1</jackson-databind.version>
         <tomcat.version>9.0.35</tomcat.version>
         <tomcat-embed-logging-juli.version>9.0.0.M6</tomcat-embed-logging-juli.version>
 
